@@ -1,0 +1,14 @@
+.About1 {
+    background-image:linear-gradient(rgba(6,11,9,0.7), rgba(6,11,9,0.7)),url('public/Images/Background/about-bg.jpg'); 
+   /* background-image: url(public\Images\Background\about-bg.jpg); */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    padding:100px 20px;
+}
+.pie-chart-container {
+    margin: 20px 0;
+  }
+  /* .s3{d} */
+  

@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+:root {
+  --orange: rgb(255,72,0);
+ --grey: rgb(155,151,164);
+ --darkgrey:rgb(131,136,150);
+}
+.orange{
+ color: var(--orange); 
+}
+.bgorange{
+background-color: var(--orange);
+}
+.bggrey{
+  background-color:rgb(236,242,245);
+}
+
+.navhov a:hover {
+  color: var(--orange);
+}
+/* hero section */
+#hero{
+  background-image: linear-gradient(rgba(6,11,9,0.7), rgba(6,11,9,0.7)), url(../assets/Images/Background/causes-bg.jpg);
+  background-size: 100% 100%;
+  padding: 100px 20px;
+  /* background: linear-gradient(rgba(6,11,9,0.1), rgba(6,11,9,0.1));  */
+ }
+ .grey{
+  color: var(--grey);
+ }
+ .shov a{
+  text-decoration:none;
+ }
+ .s2hov:hover{
+background-color: var(--orange);
+color: white;
+ }
+ 
+  /* #second1{
+      display: none;
+  }
+  
+ #second:hover{
+  display: none;
+ }
+  #second1:hover{
+      display:block;
+  } */
+  .wellcome{
+      
+      background-image: linear-gradient(rgba(6,11,9,0.7), rgba(6,11,9,0.7)), url('public/Images/Background/welcome-bg.jpg');
+
+  }
+  .s3p p{
+      color: rgb(183,183,183);
+  }
+
+
+
+
+.image-container:hover .image1  {
+  content: url('public/Images/Illustration/donation-white.png'); 
+}
+
+
+.image-container:hover .image2  {
+  content: url('public/Images/Illustration/charity-white.png'); 
+}
+
+#ourCauses{
+  background-image: linear-gradient(rgba(232,233,233,0.8), rgba(216,208,208,0.8)), url('public/Images/Background/cause-bg.jpg');
+/* background-image: url(src\assets\Images\Background\welcome-bg.jpg); */
+ }
+
+#ourCauses a{
+font-size: 16px;
+}
+
+
+#ourCauses p {
+  color: var(--grey);
+}
+ 
+
+  /* FOOTER */
+  .footer {
+    background-image: linear-gradient(rgba(6, 11, 9, 0.5), rgba(6, 11, 9, 0.5)),url('/Images/Background/foot-bg.jpg');
+  }
+.footer h4{
+font-size: 16px;
+font-weight:600;
+font-family: sans-serif;
+}
+.footer a{
+  text-decoration: none;
+  color:var(--darkgrey)
+}
+.footer P{
+  color:var(--darkgrey) 
+}
+
+.f1{
+  background-image: url('public/Images/Background/about-bg.jpg');
+}

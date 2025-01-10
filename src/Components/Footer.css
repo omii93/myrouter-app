@@ -1,0 +1,22 @@
+ /* FOOTER */
+ 
+ .footer {
+ 
+    background-image: linear-gradient(rgba(6,11,9,0.9 ), rgba(6,11,9,0.9)),  url('public/Images/Background/foot-bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+  }
+  .footer h4{
+  font-size: 16px;
+  font-weight:600;
+  font-family: sans-serif;
+  }
+  .footer a{
+    text-decoration: none;
+    color:var(--darkgrey)
+  }
+  .footer P{
+    color:var(--darkgrey) 
+  }
